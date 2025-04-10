@@ -15,5 +15,7 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+vim.api.nvim_create_user_command("W", "w", { desc = "Write file" })
+
 require "lazy_setup"
 require "polish"
