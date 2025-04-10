@@ -12,5 +12,6 @@ return {
   { import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
   { import = "astrocommunity.recipes.auto-session-restore" },
+  { import = "astrocommunity.workflow.precognition-nvim" },
   -- import/override with your plugins folder
 }
