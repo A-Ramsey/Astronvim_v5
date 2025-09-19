@@ -13,5 +13,8 @@ return {
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
   { import = "astrocommunity.recipes.auto-session-restore" },
   { import = "astrocommunity.workflow.precognition-nvim" },
+  { import = "astrocommunity.completion.copilot-vim" },
+  { import = "astrocommunity.editing-support.codecompanion-nvim" },
+  { import = "astrocommunity.pack.laravel" },
   -- import/override with your plugins folder
 }

@@ -48,6 +48,7 @@ return {
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
+        -- copypilot_no_tab_map = true, --disable copilot tab mapping
       },
     },
     -- Mappings can be configured through AstroCore as well.
@@ -86,6 +87,9 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+      },
+      i = {
+        -- insert mode
       },
     },
   },
